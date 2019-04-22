@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    min-width:1100px;
+}
+main section div {
+    width: 100%;
+    height: 40px;
+    background: #bababa;
+}
+
+main section div p {
+    margin-right: 25px;
+    color: #000;
+    line-height: 40px;
+    float: right;
+    background: #bababa;
+}
+
+main section div p a {
+    color: #000;
+    background: #bababa;
+}
+
+main > section > section#body {
+    width: 1200px;
+    margin: 10px auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+main > section > section > article {
+    height: 240px;
+    width: 200px;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 3px grary;
+    -moz-box-shadow: 0 0 3px grary;
+    box-shadow: 0 0 3px grary;
+    -webkit-transition-duration: 345ms;
+    -moz-transition-duration: 345ms;
+    -o-transition-duration: 345ms;
+    transition-duration: 345ms;
+    z-index: 1;
+}
+main > section > section > article:hover {
+    -webkit-box-shadow: 0px 0px 10px gray;
+    -moz-box-shadow: 0px 0px 10px gray;
+    box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
+    z-index: 2;
+}
+
+main > section > section > article > div.imgHolder {
+    height: 128px;
+    width: 128px;
+    margin: 0 auto;
+    background: #fdfdfd;
+    border-bottom: 1px solid #fdfdfd;
+    margin-top: 20px;
+}
+
+
+main > section > section > article > h3 {
+    color: #333333;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 14px;
+    
+}
+
+div.rating-box{
+    width: 70px;
+    height: 14px;
+    margin: 15px auto;
+    background: url("../images/icon/star-off.png") repeat-x;
+    background-size: 14px 14px;
+    direction: ltr;
+}
+
+
+ div.rating-box div.rating{
+
+    height: 100%;
+    background: url("../images/icon/star-on.png") repeat-x;
+    background-size:14px 14px;
+ 
+}
+main > section > article > p{
+    text-align: center;
+    font-size: 30px;
+    color: #bababa;
+    margin: 20px 0;
+}
