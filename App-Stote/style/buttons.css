@@ -1,0 +1,46 @@
+.btn1{
+    width: 120px;
+    height: 44px;
+    background: #535C86;
+    border: none;
+    color: #fdfdfd;
+    -webkit-transition-duration: 203ms;
+    -moz-transition-duration: 203ms;
+    -o-transition-duration: 203ms;
+    transition-duration: 203ms;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1.alert{
+    background: #ff7200;
+}
+
+.btn1:hover{
+    background: #333333;
+}
+button.btn-exit{
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    color: #888888;
+    border: none;
+    border-radius: 18px;
+    border-radius: 50%;
+    background: none;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+    
+    
+}
+button.btn-exit:hover{
+    color: #555555;
+    background: #f1f1f1;
+    transform: rotate(360deg);
+}
+button.btn-exit span{
+    line-height: 36px;
+    
+}

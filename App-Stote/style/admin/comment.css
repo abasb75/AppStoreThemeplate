@@ -1,0 +1,32 @@
+main.container div.panel .myList > .items .item{
+    height: auto;
+    text-align: right;
+    padding: 13px 36px 0 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+main.container div.panel .myList > .items .item > p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 13px;
+}
+main.container div.panel .myList > .items .item > p a{
+    color: #3587ff;
+}
+main.container div.panel .myList > .items .item > .content p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    color: #666666;
+}
+main.container div.panel .myList > .items .item > .tools{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+main.container div.panel .myList > .items .item .icon-ok{
+    left: 48px;
+}

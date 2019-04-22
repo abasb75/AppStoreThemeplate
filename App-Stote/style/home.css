@@ -1,0 +1,137 @@
+section#appList{
+    width: 100%;
+    text-align: center;
+    background: #fcfcfc;
+}
+section#appList > article{
+    width: 97%;
+    margin: 17px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fdfdfd;
+    box-shadow: 0px 0px 5px #999999;
+    border-radius: 5px;
+    -webkit-border-radius : 5px;
+    max-width: 1400px;
+    background: #ffffff;
+}
+section#appList > article > header{
+    width: 100%;
+    height: 44px;
+    background: #efefef;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    
+}
+section#appList > article > header h2{
+    float: right;
+    margin-right: 25px;
+    line-height: 44px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 500;
+}
+section#appList > article > header button{
+    float: left;
+    border: none;
+    background: #535C86;
+    height: 44px;
+    width: 120px;
+    color: #fdfdfd;
+    font-size: 14px;
+    -webkit-transition-duration: 203ms;
+    -moz-transition-duration: 203ms;
+    -o-transition-duration: 203ms;
+    transition-duration: 203ms;
+    border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+}
+section#appList > article > header button:hover{
+    background: #333333;
+}
+section#appList > article > section{
+    width: 100%;
+    height: 280px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 0;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+section#appList > article > section > article{
+    width: 13.11%;
+    height: 250px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0 0 3px #BEBDBD inset;
+    display: inline-block;
+    margin: 0 0.3%;
+    -webkit-transition-duration: 203ms;
+    -moz-transition-duration: 203ms;
+    -o-transition-duration: 203ms;
+    transition-duration: 203ms;
+    background: #ffffff;
+}
+section#appList > article > section > article.first{
+     -webkit-border-bottom-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+section#appList > article > section > article.last{
+     -webkit-border-bottom-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+section#appList > article > section > article div.imageHolder{
+    width: 128px;
+    height: 128px;
+    margin: 19px auto 0 auto;
+}
+section#appList > article > section > article h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 15px auto 0 auto;
+    color: #333333;
+}
+section#appList > article > section > article:hover h3{
+    color: #ff6500;
+}
+section#appList > article > section > article:hover{
+    cursor: pointer;
+    box-shadow: 0 0 6px #BEBDBD;
+}
+
+
+section#appList > article > section > article div.rating-box{
+    width: 70px;
+    height: 14px;
+    margin: 15px auto;
+    background: url("../images/icon/star-off.png") repeat-x;
+    background-size: 14px 14px;
+    direction: ltr;
+}
+
+
+section#appList > article > section > article div.rating-box div.rating{
+
+    height: 100%;
+    background: url("../images/icon/star-on.png") repeat-x;
+    background-size:14px 14px;
+ 
+}
+

@@ -1,0 +1,128 @@
+<!-- بسم الله الرحمن الرحیم -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>دانلود اپ</title>
+        
+        <link rel="stylesheet" href="../style/icomoon/style.css"/>
+        <link rel="stylesheet" href="../style/style.css"/>
+        <link rel="stylesheet" href="../style/input.css"/>
+        <link rel="stylesheet" href="../style/buttons.css"/>
+        <link rel="stylesheet" href="../style/admin/panel.css"/>
+        <link rel="stylesheet" href="../style/alert.css"/>
+        
+    </head>
+    <body>
+        <main class="container">
+            <div class="panelMenu">
+                <ul class="menu">
+                    <li><a href="#"><span class="icon-home"></span>صفحه اصلی</a></li>
+                    <li><a href="#"><span class="icon-apps"></span>مدیریت نرم افزارها</a></li>
+                    <li><a href="#"><span class="icon-developer"></span>مدیریت توسعه دهندگان</a></li>
+                    <li><a href="#"><span class="icon-comment"></span>مدیریت نظرات</a></li>
+                    <li><a href="#"><span class="icon-report"></span>مدیریت شکایات</a></li>
+                    <li><a href="#"><span class="icon-user"></span>مدیریت کاربران</a></li>
+                    <li><a href="#"><span class="icon-power"></span>خروج از پنل مدیریت</a></li>
+                </ul>
+            </div>
+            <div class="panel">
+                <header>
+                    <h1 class="icon-logo"></h1>
+                    <form>
+                        <input type="text" placeholder="جستجوی کاربران ..."/>
+                    </form>
+                    <button><span class="icon-check"></span></button>
+                    <button><span class="icon-add"></span></button>
+                </header>
+                <section class="myList">
+                    <header>
+                        <span>تعداد اپها</span>
+                    </header>
+                    <div class="items">
+                        <div class="item">
+                            <div class="imageHolder"><img src="../images/cover_128.png" /></div>
+                            <a href="#"><span class="title">جی تی</span></a>
+                            <a href="#" onclick="showRating('developerInfo')"><span class="developer">جی تی</span></a>
+                            <a href="#" onclick="showRating('alertTo')"><span class="icon-delete itemBtn"></span></a>
+                            <a href="#"><span class="icon-edit itemBtn"></span></a>
+                            <a href="#"><span class="icon-update itemBtn"></span></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <div id="alertTo">
+            <div class="alert_x">
+                <p class="text">آیا مطمئن هستید؟</p>
+                <button class="ok">آره</button>
+                <button class="cancel" onclick="closeRating('alertTo')">نه</button>
+            </div>
+        </div>
+        <div id="developerInfo">
+            <div class="container"> 
+                <div class="info">
+                    <div class="imageHolder"><img src="../images/cover_128.png" /></div>
+                    <h2>نام توسعه دهنده</h2>
+                    <p>ایمیل : abasbagheria@gmail.com</p>
+                    <p class="score">میانگین امتیاز نرم افزارها : 4.3 از 10</p>
+                    <button class="btn-exit" onclick="closeRating('developerInfo');"><span class="icon-exit"></span></button>
+                </div>
+            <div class="appList">
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                <div class="item">
+                    <div class="imageHolder"><img src="../images/cover_128.png"/></div>
+                    <h3>نام برنامه دولوپر</h3>
+                </div>
+                
+            </div>
+            </div>
+            
+        </div>
+        
+    </body>
+    <script src="../js/rating.js"></script>
+</html>

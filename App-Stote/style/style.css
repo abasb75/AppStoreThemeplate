@@ -1,0 +1,46 @@
+@font-face{
+    font-family:'BYekan';
+    src:url('../font/BYekan/BYekan.ttf') format('truetype'), url('../font/BYekan/BYekan.eot?#') format('eot'), url('../font/BYekan/BYekan.woff') format('woff');font-style:normal;
+    font-weight:normal;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    outline: none;
+    user-select: none;
+    -webkit-user-select : none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    font-family: BYekan,'BYekan';
+
+}
+img{
+    border: none;
+}
+
+ul.menu , ul.horizontalMenu{
+    list-style: none;
+}
+ul.horizontalMenu > li{
+    display: inline;
+    display: inline-block;
+}
+body{
+     direction: rtl;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+button{
+    cursor: pointer;
+}
+div.imageHolder img{
+    height: 100%;
+    width: 100%;
+}

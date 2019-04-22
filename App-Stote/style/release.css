@@ -1,0 +1,164 @@
+main.container{
+    width: 100%;
+    min-width: 1100px;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+main.container h1{
+    font-size: 48px;
+    line-height: 102px;
+    color: #c1c1c1;
+}
+main.container h2{
+    font-size: 21px;
+    line-height: 64px;
+    color: #444444;
+}
+main.container p.intro{
+    font-size: 13px;
+    line-height: 24px;
+    color: #888888;
+}
+main.container div.laws{
+    width: 100%;
+    padding: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: right;
+    direction: rtl;
+}
+main.container div.laws p{
+    width: 100%;
+    text-align: justify;
+    line-height: 25px;
+    color: #555555;
+    font-size: 15px;
+}
+main.container div.buttons{
+    width: 100%;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100px;
+}
+main.container div.buttons .btn1{
+    width: 200px;
+}
+main.container div.buttons .btn1.left{
+    float: left;
+}
+main.container div.buttons .btn1.right{
+    float: right;
+    margin-left: 20px;
+}
+main.container div.uploadPlace{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+main.container div.uploadPlace input{
+    display: none;
+}
+main.container div.uploadPlace label{
+    font-size: 144px;
+    padding-top: 35px;
+    color: #cccccc;
+    cursor: pointer;
+}
+main.container div.uploadPlace label:hover{
+    color: #ff7600;
+}
+
+
+main.container div.uploadPlace div.placeHolder{
+    width: 128px;
+    height: 128px;
+    margin: 25px auto;
+}
+main.container div.uploadPlace h2{
+    color: #333777;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+main.container div.text1{
+    margin: 25px auto;
+    width: 900px !important;
+    height: 524px !important;
+}
+main.container div.text1 label{
+    padding-bottom: 493px;
+}
+main.container div.text1 textarea{
+    width: 843px !important;
+    height: 500px !important;
+}
+main.container div.imageUpload{
+    width: 800px;
+    height: 320px;
+    background: #f1f1f1;
+    margin: 25px auto;
+}
+main.container div.imageUpload .item{
+    width: 200px;
+    height: 160px;
+    background: #ffffff;
+    float: right;
+    text-align: center;
+}
+main.container div.imageUpload .item.upload div{
+    width: 190px;
+    height: 140px;
+    background: #ffffff;
+    box-shadow: 0 0 2px #cccccc;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+main.container div.imageUpload .item.upload div input{
+    display: none;
+}
+
+main.container div.imageUpload .item.upload div label{
+    line-height: 140px;
+    color: #cccccc;
+    font-size: 98px;
+}
+main.container div.imageUpload .item.upload div label:hover{
+    color: #ff7600;
+    cursor: pointer;
+}
+main.container div.imageUpload .item div.imageHolder{
+    width: 190px;
+    height: 140px;
+    background: #ffffff;
+    box-shadow: 0 0 2px #cccccc;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    -webkit-transition-duration: 333ms;
+    -moz-transition-duration: 333ms;
+    -o-transition-duration: 333ms;
+    transition-duration: 333ms;
+}
+main.container div.imageUpload .item div.imageHolder:hover{
+    transform: scale(1.2);
+}
+main.container h1.end{
+    font-size: 78px;
+    line-height: 179px;
+}
+main.container p.done{
+    margin-bottom: 120px;
+}
+
+
+

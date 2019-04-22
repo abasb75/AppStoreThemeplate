@@ -1,0 +1,477 @@
+section#mainSection {
+    width: 100%;
+}
+
+section#mainSection > div#appDetail{
+    width: 100%;
+    height: 400px;
+    background: #fdfdfd;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+}
+section#mainSection > div#appDetail div.imageHolder{
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    top: 98px; 
+    right: 100px;
+    background: #f1f1f1;
+    border-radius: 38px;
+    border-bottom: 1px solid #f1f1f1;
+}
+section#mainSection > div#appDetail div.detail{
+    position: absolute;
+    width: 350px;
+    height: 154px;
+    top: 98px;
+    right: 270px;
+}
+section#mainSection > div#appDetail div.detail h2{
+    line-height: 64px;
+    height: 64px;
+    font-size: 26px;
+    color: #333333;
+    padding-right: 10px;
+}
+section#mainSection > div#appDetail div.detail > div{
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+section#mainSection > div#appDetail div.detail > div > div.d1{
+    width: 50%;
+    height: 90px;
+    display: inline-block;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+section#mainSection > div#appDetail div.detail > div > div.d2{
+    width: 50%;
+    height: 90px;
+    display: inline-block;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+section#mainSection > div#appDetail div.detail > div > div span{
+    font-size: 13px;
+    color: #666666;
+    display: block;
+    line-height: 30px;
+    padding-right: 24px;    
+}
+section#mainSection > div#appDetail div.download{
+    position: absolute;
+    width: 120px;
+    height: 154px;
+    top: 98px;
+    left: 100px;
+}
+
+
+section#mainSection > div#appDetail div.download div.rating-box{
+    width: 100px;
+    height: 20px;
+    margin: 20px auto;
+    background: url("../images/icon/star-off.png") repeat-x;
+    background-size: 20px 20px;
+    direction: ltr;
+}
+
+
+section#mainSection > div#appDetail div.download div.rating-box div.rating{
+    height: 100%;
+    background: url("../images/icon/star-on.png") repeat-x;
+    background-size: 20px 20px;
+}
+
+section#mainSection > div#appDetail div.download button{
+    float: left;
+    border: none;
+    background: #535C86;
+    height: 44px;
+    width: 120px;
+    color: #fdfdfd;
+    font-size: 14px;
+    -webkit-transition-duration: 203ms;
+    -moz-transition-duration: 203ms;
+    -o-transition-duration: 203ms;
+    transition-duration: 203ms;
+    border-radius: 5px;
+    -webkitborder-radius: 5px;
+}
+section#mainSection > div#appDetail div.download button:hover{
+    background: #333333;
+}
+
+section#mainSection > div#appDetail div.moreTools{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+section#mainSection > div#appDetail div.moreTools button{
+    border: none;
+    background: none;
+    color: #73B7F6;
+    margin: 0 10px;
+}
+section#mainSection > div#appDetail div.moreTools button:hover{
+    color: #333333;
+}
+
+/* screen shot */
+section#mainSection > div#screenshot{
+    width: 100%;
+    padding: 10px;
+    background: #f1f1f1;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    direction: ltr;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   
+}
+section#mainSection > div#screenshot img{
+    max-height: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px gray;
+    margin: 0 10px;
+}
+section#mainSection > div#screenshot img:hover{
+    max-height: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px gray;
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+}
+
+
+/* app description */
+section#mainSection > div#appDescription{
+    width: 97.5%;
+    margin: 15px auto;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    max-width: 1700px;
+}
+
+
+section#mainSection > div#appDescription .description{
+    width: 67%;
+    box-sizing: border-box;
+    padding-left: 3px;
+}
+section#mainSection > div#appDescription .access{
+    width: 33%;
+    box-sizing: border-box;
+    margin-right: 3px;
+}
+
+section#mainSection > div#appDescription div h3{
+    width: 100%;
+    background: #999999;
+    color: #fdfdfd;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 6px;
+    box-shadow: 0 0 3px gray;
+    
+}
+section#mainSection > div#appDescription  div.content{
+    width: 100%;
+    background: #fdfdfds;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 6px;
+    box-shadow: 0 0 3px gray;
+    overflow-x: hidden;
+    height: calc(100% - 44px);
+}
+
+/* comment */
+section#mainSection > div#comment{
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+section#mainSection > div#comment header{
+    width: 100%;
+    height: 40px;
+    background: #999999;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 6px;
+    box-shadow: 0 0 3px gray;
+}
+
+section#mainSection > div#comment header h3{
+    float: right;
+    color: #fdfdfd;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-right: 25px;
+}
+section#mainSection > div#comment header button{
+    float: left;
+    border: none;
+    background: #535C86;
+    height: 40px;
+    width: 120px;
+    color: #fdfdfd;
+    font-size: 14px;
+    -webkit-transition-duration: 203ms;
+    -moz-transition-duration: 203ms;
+    -o-transition-duration: 203ms;
+    transition-duration: 203ms;
+}
+section#mainSection > div#comment header button:hover{
+    background: #333333;
+}
+section#mainSection > div#comment section{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 6px;
+}
+section#mainSection > div#comment section div.item{
+    width: 100%;
+    background: #fdfdfd;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 6px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    display: flex;
+    
+}section#mainSection > div#comment section div.item.last{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    
+    
+}
+section#mainSection > div#comment section div.item div.user{
+    width: 200px;
+    min-height: 135px;
+   
+    background: #999999;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    flex-wrap: 1;
+}
+section#mainSection > div#comment section div.item div.user div.imageHolder{
+    width: 80px;
+    height: 80px;    
+    margin: 10px auto;
+    border-right: 50%;
+}
+section#mainSection > div#comment section div.item div.user p{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fdfdfd;
+}
+
+section#mainSection > div#comment section div.item div.content{
+    width: 800px;
+    width: calc(100% - 250px);
+    min-height: 100px;
+    height: 100%;
+    min-height: 120px;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    padding: 25px;
+    
+}
+
+section#mainSection > div#comment section div.item div.content p{
+    color: #666666;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+/* score to software */
+div#scoreToSoftWare{
+    position: fixed;
+    top: 0;
+    left: 699%;
+    width: 100%;
+    height: 100%;
+    background: #000000dd;
+    background: rgba(0,0,0,0.83);
+    overflow: auto;
+}
+div#scoreToSoftWare div#scoreToSoftwareDoing{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 748px;
+    height: 454px;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #fdfdfd76;
+    background: #fdfdfd;
+    overflow: auto;
+    text-align: center;
+}
+div#scoreToSoftWare div#scoreToSoftwareDoing h2{
+    color: #555555;
+    font-size: 17px;
+    line-height: 120px;
+    font-weight: 600;
+}
+div#scoreToSoftWare div#scoreToSoftwareDoing div#scoreRate span{
+    color: #777777;
+    font-size: 36px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+div#scoreToSoftWare div#scoreToSoftwareDoing div#scoreRate span.active{
+    color: #EECD49;
+}
+
+div#scoreToSoftWare div#scoreToSoftwareDoing button.btn1 {
+    margin-top: 150px;
+    
+}
+
+div#scoreToSoftWare div#scoreToSoftwareDoing button.btn-exit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* report the software */
+div#reportTheSoftware , div#commentToApp{
+    position: fixed;
+    top: 0;
+    left: 120%;
+    width: 100%;
+    height: 100%;
+    background: #000000dd;
+    background: rgba(0,0,0,0.83);
+    overflow: auto;
+}
+div#reportTheSoftwareDoing , div#commentToAppDoing{
+    position: absolute;
+    top: 0;
+    left:50%;
+    transform: translate(-50%,0);
+    width: 900px;
+    height: 100%;
+    box-shadow: 0 0 3px #fdfdfd76;
+    background: #fdfdfd;
+    overflow: auto;
+    text-align: center;
+}
+div#reportTheSoftwareDoing button.btn-exit , div#commentToAppDoing button.btn-exit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+div#reportTheSoftwareDoing h2 , div#commentToAppDoing h2 {
+    color: #555555;
+    font-size: 17px;
+    line-height: 90px;
+    font-weight: 600;
+}
+div#reportTheSoftwareDoing p , div#commentToAppDoing p{
+    color: #888888;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+}
+div#reportTheSoftwareDoing div.input1{
+    margin: 25px auto 10px auto;
+}
+div#reportTheSoftwareDoing div.select1 , div#reportTheSoftwareDoing div.text1{
+    margin: 10px auto;
+}
+div#reportTheSoftwareDoing button.btn1,div#commentToAppDoing button.btn1 {
+    margin-top: 25px;
+}
+
+/* comment */
+
+
+
+div#commentToAppDoing p{
+    margin-bottom: 25px;
+}
+
+div#commentToAppDoing div.input1,div.text1{
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

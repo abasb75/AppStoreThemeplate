@@ -1,0 +1,373 @@
+main.container{
+    width: 100%;
+    min-width: 1100px;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 250px;
+}
+main.container .panelMenu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    overflow: auto;
+    background: #535C86;
+    z-index: 2;
+}
+main.container .panelMenu ul{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 150px;
+    overflow: auto;
+    background: #535C86;
+}
+main.container .panelMenu ul li{
+    line-height:50px;
+}
+main.container .panelMenu ul li a{
+    display: block;
+    color: #fdfdfd;
+}
+main.container .panelMenu ul li a:hover{
+    color: #cccccc;
+}
+main.container .panelMenu ul li a span{
+    margin-left: 20px;
+}
+main.container .panel{
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+main.container .panel h1{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    font-size: 48px;
+    color: #cccccc;
+    top: 20px;
+    right: 20px;
+}
+main.container .panel .btn1.goto{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 20px;
+    left: 20px;
+    width: 155px;
+}
+main.container .panel h2{
+    margin-top: 15px;
+    color: #333333;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+main.container .panel div.itemAppList , main.container .panel div.commentList , main.container .panel div.itemAppListDeveloper{
+    width: 80%;
+    height: auto;
+    padding: 20px 10%;
+    display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex;
+    text-align: center;
+    -webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;
+    justify-content: center;
+}
+
+main.container .panel div.itemAppList div.item{
+    width: 200px;
+    height: 240px;
+    border: 1px solid #f1f1f1;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+main.container .panel div.itemAppList div.item:hover{
+    box-shadow: 0 0 6px #bbbbbb;
+    cursor: pointer; 
+}
+
+main.container .panel div.itemAppList div.item div.imageHolder{
+    width: 128px;
+    height: 128px;
+    margin: 19px auto 0 auto;
+}
+main.container .panel div.itemAppList div.item h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 19px auto 0 auto;
+    color: #333333;
+}
+main.container .panel div.itemAppList div.item:hover h3{
+    color: #ff6500;
+}
+main.container .panel div.itemAppList div.item:hover{
+    cursor: pointer;
+    box-shadow: 0 0 6px #BEBDBD;
+}
+
+
+main.container .panel div.itemAppList div.item div.rating-box{
+    width: 70px;
+    height: 14px;
+    margin: 20px auto;
+    background: url("../images/icon/star-off.png") repeat-x;
+    background-size: 14px 14px;
+    direction: ltr;
+}
+
+
+main.container .panel div.itemAppList div.item div.rating-box div.rating{
+    background-color:#ffffff;
+    height: 100%;
+    background: url("../images/icon/star-on.png") repeat-x;
+    background-size:14px 14px;
+
+}
+
+
+main.container .panel div.commentList div.item{
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px #f1f1f1 inset;
+    border: 1px solid #f1f1f1;
+    position: relative;
+}
+main.container .panel div.commentList div.item div.appDetail{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 180px;
+    text-align: center;
+    display: inline-block;
+}
+main.container .panel div.commentList div.item div.appDetail div.imageHolder{
+    width: 80px;
+    height: 80px;
+    margin: 25px auto;
+}
+main.container .panel div.commentList div.item div.appDetail h3{
+    font-size: 14px;
+    color: #777777;
+}
+main.container .panel div.commentList div.item div.appDetail h3:hover{
+    color: #ffa400;
+    cursor: pointer;
+}
+main.container .panel div.commentList div.item div.appDetail p{
+    font-size: 13px;
+    color: #999999;
+    margin-top: 15px;
+}
+
+main.container .panel div.commentList div.item div.content{
+    font-size: 14px;
+    color: #999999;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding-right: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+main.container .panel div.commentList div.item div.tools{
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #888888;
+}
+main.container .panel div.commentList div.item div.tools button{
+    border: none;
+    background: none;
+}
+main.container .panel div.commentList div.item div.tools span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px !important;
+    color: #fdfdfd;
+    font-size: 21px;
+}
+main.container .panel div.commentList div.item div.tools span:hover{
+    color: #3595ff;
+}
+main.container .panel div.changeImageProfile{
+    width: 128px;
+    height: 128px;
+    margin: 30px auto;
+    position: relative;
+}
+main.container .panel div.changeImageProfile div.imageHolder{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 2px #f1f1f1;
+    box-shadow: 0 0 2px #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+main.container .panel div.changeImageProfile input{
+    display:none;
+}
+main.container .panel div.changeImageProfile label{
+    width: 42px;
+    height: 42px;
+    background: #888888ee;
+    border-radius: 50%;
+    line-height: 42px;
+    color: #fdfdfd;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+main.container .panel div.changeImageProfile label:hover{
+    color: #3595ff;
+    background: #f1f1f1ee;
+    -webkit-box-shadow: 0 0 5px #f1f1f1;
+    box-shadow: 0 0 5px #f1f1f1;
+}
+main.container .panel h3{
+    color: #333333;
+    font-size: 18px;
+    margin: 20px auto;
+}
+main.container .panel p.mail{
+    color: #555555;
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+div.itemAppListDeveloper div.item{
+    width: 390px;
+    height: 260px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #f1f1f1;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    direction: rtl;
+    
+}
+div.itemAppListDeveloper div.item:hover{
+    -webkit-box-shadow: 0 0 6px #f1f1f1;
+    box-shadow: 0 0 6px #f1f1f1;
+    
+}
+div.itemAppListDeveloper div.item div.imageHolder{
+    position: absolute;
+    top: 26px;
+    right: 25px;
+    width: 128px;
+    height: 128px;
+}
+div.itemAppListDeveloper div.item h3{
+    width: 220px;
+    color: #555555;
+    margin-top: 40px;
+    margin-right: 160px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: right;
+}div.itemAppListDeveloper div.item > p{
+    font-size: 13px;
+    text-align: right;
+    color: #777777;
+    margin-right: 160px;
+    width: 220px;
+    line-height: 21px;
+}
+div.itemAppListDeveloper div.item:hover h3{
+    color: #ff7600;
+}
+
+div.itemAppListDeveloper div.item div.rating-box{
+    position: absolute;
+    top: 145px;
+    right: 54px;
+    width: 70px;
+    height: 14px;
+    margin: 20px auto;
+    background: url("../images/icon/star-off.png") repeat-x;
+    background-size: 14px 14px;
+    direction: ltr;
+}
+
+
+div.itemAppListDeveloper div.item div.rating-box div.rating{
+    height: 100%;
+    background: url("../images/icon/star-on.png") repeat-x;
+    background-size:14px 14px;
+ 
+}
+
+div.itemAppListDeveloper div.item div.tools{
+    position: absolute;
+    width: 95%;
+    bottom: 0;
+    height: 50px;
+    background: #888888;
+    left: 0;
+    direction: ltr;
+    text-align: left;
+    padding-left: 5%;
+}
+div.itemAppListDeveloper div.item div.tools span{
+    -webkit-transition-duration: 324ms;
+    -moz-transition-duration: 324ms;
+    -o-transition-duration: 324ms;
+    transition-duration: 324ms;
+}
+div.itemAppListDeveloper div.item div.tools > span{
+    color: #fdfdfd;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 5px 12px 5px 5px;
+    width: 70px;
+}
+div.itemAppListDeveloper div.item div.tools  span:before{
+    padding-right: 10px;
+    line-height: 50px !important;
+}
+div.itemAppListDeveloper div.item div.tools  a span{
+    color: #fafafa;
+}
+div.itemAppListDeveloper div.item div.tools  span:hover{
+    color: #cccccc;
+}
+
+
+
+
+
+
+
+
+

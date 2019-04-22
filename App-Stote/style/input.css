@@ -1,0 +1,226 @@
+div.input1{
+    position: relative;
+    background: #f1f1f1;
+    width: 457px;
+    direction: ltr;
+    height: 40px;
+    border: 2px solid #535C86;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: right;
+}
+div.input1 label{
+    width:36px;
+    height: 36px;
+    background: #535C86;
+    line-height: 36px !important;
+    color: #fdfdfd;
+    font-size: 20px;
+    padding: 9px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+div.input1 input{
+    position: absolute;
+    right: 36px;
+    padding-right: 6px;
+    top: 0;
+    width:415px;
+    height: 36px;
+    background: #ffffff;
+    color: #666666;
+    font-size: 14px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    direction: rtl;
+    outline: 0;
+}
+
+
+
+
+
+
+div.select1{
+    position: relative;
+    background: #f1f1f1;
+    width: 457px;
+    direction: ltr;
+    height: 40px;
+    border: 2px solid #535C86;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.select1 select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    color: #aaaaaa;
+    height: 36px;
+    box-sizing: border-box;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "\e903";
+    font-family: 'icomoon';
+    left: 10px;
+    top: 0;
+    line-height: 36px;
+    width: 0;
+    height: 0;
+    color: #555555;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+    position: absolute;
+    content: "\e911";
+    font-family: 'icomoon';
+    left: 10px;
+    top: 0;
+    line-height: 36px;
+    width: 0;
+    height: 0;
+    color: #555555;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+    color: #666666;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #f1f1f1;
+    cursor: pointer;
+    padding-right: 42px;
+}
+
+/* Style items (options): */
+.select-items {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: -2px;
+    z-index: 99;
+    border-right: 2px solid #535C86;
+    border-bottom: 2px solid #535C86;
+    border-left: 2px solid #535C86;
+    border-top: 1px solid #f1f1f1;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #ffffff;
+
+    
+    
+    
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+div.select1 label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:20px;
+    height: 20px;
+    background: #535C86;
+    line-height: 20px !important;
+    color: #fdfdfd;
+    font-size: 20px;
+    padding: 9px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+
+
+div.text1{
+    position: relative;
+    background: #f1f1f1;
+    width: 457px;
+    direction: ltr;
+    height: 240px;
+    border: 2px solid #535C86;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: right;
+}
+div.text1 label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:20px;
+    height: 20px;
+    background: #535C86;
+    color: #fdfdfd;
+    font-size: 20px;
+    padding: 9px 9px 209px 9px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+div.text1 textarea{
+    position: absolute;
+    top: 0;
+    right: 36px;
+    padding-right:6px;
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-bottom: 10px;
+    border: none;
+    width: 400px;
+    height: 216px;
+    background: #ffffff;
+    direction: rtl;
+    line-height: 20px !important;
+    color: #555555;
+    font-size: 14px;
+    resize: none;
+    width: ;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+
+
+
+
+
+
+
+

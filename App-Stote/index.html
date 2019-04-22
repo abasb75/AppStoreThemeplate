@@ -1,0 +1,428 @@
+<!-- بسم الله الرحمن الرحیم -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>دانلود اپ</title>
+        
+        <link rel="stylesheet" href="style/icomoon/style.css"/>
+        <link rel="stylesheet" href="style/style.css"/>
+        <link rel="stylesheet" href="style/buttons.css"/>
+        <link rel="stylesheet" href="style/header.css"/>
+        <link rel="stylesheet" href="style/home.css"/>
+    </head>
+    <body>
+        <main class="container">
+            <header>
+                <nav>
+                    <a href="#"><h1 class="icon-logo"></h1></a>
+                    <ul class="horizontalMenu">
+                        <li><a href="user/" class="icon-user"></a></li>
+                        <li><a class="icon-category" onclick="showCategory();"></a></li>
+                        <li><a class="icon-search" onclick="showSearchDetail();"></a></li>
+                    </ul>
+                    <button class="hide" id="cancelButton"><span class="icon-up-arrow"></span></button>
+                </nav>
+                <form class="close" id="formSearch">
+                    <div>
+                         <span class="icon-search"></span>
+                    <input type="text" placeholder="دنبال چی میگزدین ..."/>
+                    </div>
+                </form>
+                <section id="cats" class="close">
+                    <h2 class="icon-category">انتخاب دسته بندی</h2>
+                    <div id="categoryItems">
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                        <div class="cat"><span class="icon-category">     </span><span>نام دسته</span></div>
+                    </div>
+                </section>
+            </header>
+            <div id="introHome">
+                <div class="intro">
+                    <h2>سلام</h2>
+                    <h3>به بزرگترین و بهترین فروشگاه اپ دنیا خوش اومدین!</h3>
+                    <p>این فروشگاه بهترین و بزرگترین فروشگاه اپ موجود در دنیاست. ما کلا در همه زمینه ها بهترین هستیم بطوری که کاربران و توسعه دهندگان سخت پسند را ما راضی میکنیم. البته اینها گفته های ما نیست گفته های کاربرامونه.</p>
+                </div>
+            </div>
+            <section id="appList">
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128.png" alt=""/></div>
+                            <h3>باکس آموزشی تعمیرات ...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_2.png" alt=""/></div>
+                            <h3>کنسول - دنیای گیمرها</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_3.png" alt=""/></div>
+                            <h3>فوتبال PES2018 (کیها...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_256r.png" alt=""/></div>
+                            <h3>شتاب 2</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_256q.png" alt=""/></div>
+                            <h3>تصاویر پشت زمینه ع...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/wiki.png" alt=""/></div>
+                            <h3>ویکی پدیا</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(1).png" alt=""/></div>
+                            <h3>محاسبه گر قیمت خود...<h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128%20(2).png" alt=""/></div>
+                            <h3>ماشین حساب</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(4).png" alt=""/></div>
+                            <h3>چراغ قوه</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(3).png" alt=""/></div>
+                            <h3>ماشین حساب</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(5).png" alt=""/></div>
+                            <h3>RECAST & WIDGETS...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(6).png" alt=""/></div>
+                            <h3>OAA WEATHER FREE...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(7).png" alt=""/></div>
+                            <h3>مرورگر فایرفاکس برای...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(8).png" alt=""/></div>
+                            <h3>مرورگر گوگل کروم</h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128%20(9).png" alt=""/></div>
+                            <h3>قرآن کریم (با 7 ترجمه)</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(10).png" alt=""/></div>
+                            <h3>قرآن کریم (با 7 ترجمه)</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(11).png" alt=""/></div>
+                            <h3>مفاتیح صوتی و متنی</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(12).png" alt=""/></div>
+                            <h3>زیارت عاشورا</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(13).png" alt=""/></div>
+                            <h3>زیارت</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(14).png" alt=""/></div>
+                            <h3>قرآن صوتی فارسی</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(15).png" alt=""/></div>
+                            <h3>یاد خدا</h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128%20(16).png" alt=""/></div>
+                            <h3>WORLD ATLAS</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(17).png" alt=""/></div>
+                            <h3>CLASSDOJO</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(18).png" alt=""/></div>
+                            <h3>حل المسائل ریاضی</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(19).png" alt=""/></div>
+                            <h3>RD MOBILE ACCESS...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(20).png" alt=""/></div>
+                            <h3>چارت ستارگان</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(21).png" alt=""/></div>
+                            <h3>اپلیکیشن رسمی دان...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(22).png" alt=""/></div>
+                            <h3>آموزش زبان انگلیسی...</h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128.png" alt=""/></div>
+                            <h3>باکس آموزشی تعمیرات ...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_2.png" alt=""/></div>
+                            <h3>کنسول - دنیای گیمرها</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_3.png" alt=""/></div>
+                            <h3>فوتبال PES2018 (کیها...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_256r.png" alt=""/></div>
+                            <h3>شتاب 2</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_256q.png" alt=""/></div>
+                            <h3>تصاویر پشت زمینه ع...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/wiki.png" alt=""/></div>
+                            <h3>ویکی پدیا</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(1).png" alt=""/></div>
+                            <h3>محاسبه گر قیمت خود...<h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128%20(2).png" alt=""/></div>
+                            <h3>ماشین حساب</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(4).png" alt=""/></div>
+                            <h3>چراغ قوه</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(3).png" alt=""/></div>
+                            <h3>ماشین حساب</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(5).png" alt=""/></div>
+                            <h3>RECAST & WIDGETS...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(6).png" alt=""/></div>
+                            <h3>OAA WEATHER FREE...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(7).png" alt=""/></div>
+                            <h3>مرورگر فایرفاکس برای...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(8).png" alt=""/></div>
+                            <h3>مرورگر گوگل کروم</h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128%20(9).png" alt=""/></div>
+                            <h3>قرآن کریم (با 7 ترجمه)</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(10).png" alt=""/></div>
+                            <h3>قرآن کریم (با 7 ترجمه)</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(11).png" alt=""/></div>
+                            <h3>مفاتیح صوتی و متنی</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(12).png" alt=""/></div>
+                            <h3>زیارت عاشورا</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(13).png" alt=""/></div>
+                            <h3>زیارت</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(14).png" alt=""/></div>
+                            <h3>قرآن صوتی فارسی</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(15).png" alt=""/></div>
+                            <h3>یاد خدا</h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h2>برترین ها</h2>
+                        <button>بیشتر</button>
+                    </header>
+                    <section>
+                        <article class="first">
+                            <div class="imageHolder"><img src="images/cover_128%20(16).png" alt=""/></div>
+                            <h3>WORLD ATLAS</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(17).png" alt=""/></div>
+                            <h3>CLASSDOJO</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(18).png" alt=""/></div>
+                            <h3>حل المسائل ریاضی</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(19).png" alt=""/></div>
+                            <h3>RD MOBILE ACCESS...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(20).png" alt=""/></div>
+                            <h3>چارت ستارگان</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article>
+                            <div class="imageHolder"><img src="images/cover_128%20(21).png" alt=""/></div>
+                            <h3>اپلیکیشن رسمی دان...</h3>
+                            <div class="rating-box"><div class="rating" style="width:50px;"></div></div>
+                        </article>
+                        <article class="last">
+                            <div class="imageHolder"><img src="images/cover_128%20(22).png" alt=""/></div>
+                            <h3>آموزش زبان انگلیسی...</h3>
+                            <div class="rating-box"><div class="rating" style="width:28px;"></div></div>
+                        </article>
+                        
+                        
+                    </section>
+                </article>
+                
+            </section>
+        </main>
+        
+    </body>
+    <script src="js/search.js"></script>
+</html>
